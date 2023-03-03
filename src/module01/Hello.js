@@ -16,4 +16,6 @@ function Hello() {
   );
 }
 
+//functional component can be written as both arrow function and regular function. 
+
 export default Hello;
