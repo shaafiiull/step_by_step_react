@@ -1,4 +1,5 @@
 import "./App.css";
+import ParentComponent from "./methodasProps/ParentComponent";
 import BindingEvent from "./module01/BindingEvent";
 import Counter from "./module01/Counter";
 import Hello from "./module01/Hello";
@@ -9,7 +10,8 @@ import Welcome from "./module01/Welcome";
 function App() {
   return (
     <div className="App">
-      <BindingEvent></BindingEvent>
+      <ParentComponent></ParentComponent>
+      {/* <BindingEvent></BindingEvent> */}
       {/*       <Hello name="shams" age={23}>
         Profession: Scientist
       </Hello> */}
