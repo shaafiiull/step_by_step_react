@@ -1,4 +1,5 @@
 import "./App.css";
+import ConditionalRendering from "./conditional rendering/ConditionalRendering";
 import ParentComponent from "./methodasProps/ParentComponent";
 import BindingEvent from "./module01/BindingEvent";
 import Counter from "./module01/Counter";
@@ -10,7 +11,8 @@ import Welcome from "./module01/Welcome";
 function App() {
   return (
     <div className="App">
-      <ParentComponent></ParentComponent>
+      <ConditionalRendering></ConditionalRendering>
+      {/* <ParentComponent></ParentComponent> */}
       {/* <BindingEvent></BindingEvent> */}
       {/*       <Hello name="shams" age={23}>
         Profession: Scientist
