@@ -6,9 +6,26 @@ import Welcome from "./module01/Welcome";
 function App() {
   return (
     <div className="App">
-      <Hello></Hello>
-      <Welcome></Welcome>
-      <NonJSXElement></NonJSXElement>
+      <Hello name="shams" age={23}>
+        Profession: Scientist
+      </Hello>
+      <Hello name="Akash" age={33}>
+        {" "}
+        Profession: BCS Cadre
+      </Hello>
+      <Hello name="Bipul" age={50}>
+        {" "}
+        Profession: Businessman
+      </Hello>
+      <Welcome name="shams" age={23}>
+        {" "}
+        Profession: Scientist
+      </Welcome>
+      <Welcome name="Akash" age={53}>
+        {" "}
+        Profession: BCS Cadre
+      </Welcome>
+      {/* <NonJSXElement></NonJSXElement> */}
     </div>
   );
 }
