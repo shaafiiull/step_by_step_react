@@ -1,12 +1,14 @@
 import "./App.css";
 import Hello from "./module01/Hello";
 import NonJSXElement from "./module01/NonJSXComponent";
+import Subscription from "./module01/Subscription";
 import Welcome from "./module01/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <Hello name="shams" age={23}>
+      <Subscription></Subscription>
+      {/*       <Hello name="shams" age={23}>
         Profession: Scientist
       </Hello>
       <Hello name="Akash" age={33}>
@@ -24,7 +26,7 @@ function App() {
       <Welcome name="Akash" age={53}>
         {" "}
         Profession: BCS Cadre
-      </Welcome>
+      </Welcome> */}
       {/* <NonJSXElement></NonJSXElement> */}
     </div>
   );
