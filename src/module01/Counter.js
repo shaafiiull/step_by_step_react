@@ -43,6 +43,10 @@ class Counter extends Component {
     );
     // console.log(this.state.count);
   }
+  sayHi() {
+    console.log("hello");
+  }
+  // sayHi method does not need to bind 'this' as it doesn't access any state or props of the class
   render() {
     return (
       <div>
@@ -50,6 +54,8 @@ class Counter extends Component {
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>
         <button onClick={this.reset}>Reset</button>
+        {/* <button onClick={this.sayHi}>SayHiToConsole</button> */}
+        {/*the above button was added to test why some method does not need to bind 'this'  */}
       </div>
     );
   }

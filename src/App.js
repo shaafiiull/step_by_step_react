@@ -8,10 +8,10 @@ import Welcome from "./module01/Welcome";
 function App() {
   return (
     <div className="App">
-      <Hello name="shams" age={23}>
+      {/*       <Hello name="shams" age={23}>
         Profession: Scientist
-      </Hello>
-      {/* <Counter></Counter> */}
+      </Hello> */}
+      <Counter></Counter>
       {/* <Subscription></Subscription> */}
       {/*       <Hello name="shams" age={23}>
         Profession: Scientist
