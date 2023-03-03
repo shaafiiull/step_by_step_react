@@ -1,6 +1,21 @@
 import React, { Component } from "react";
 
+// in class components destructuring is done inside of render method
 class Welcome extends Component {
+  render() {
+    const { name, age, children } = this.props;
+    return (
+      <div>
+        <h1>This is welcome from class component</h1>
+        <p>
+          I am {name} and My age is {age}
+        </p>
+        <button>{children}</button>
+      </div>
+    );
+  }
+}
+/* class Welcome extends Component {
   render() {
     return (
       <div>
@@ -12,6 +27,6 @@ class Welcome extends Component {
       </div>
     );
   }
-}
+} */
 
 export default Welcome;
