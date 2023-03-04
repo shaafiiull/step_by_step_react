@@ -1,0 +1,7 @@
+.infoCollection {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    padding: 30px 10px;
+}

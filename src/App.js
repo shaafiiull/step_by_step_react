@@ -1,5 +1,6 @@
 import "./App.css";
 import ConditionalRendering from "./conditional rendering/ConditionalRendering";
+import UserForm from "./Form Handling/UserForm";
 import ListRendering from "./ListRendering/ListRendering";
 import ParentComponent from "./methodasProps/ParentComponent";
 import BindingEvent from "./module01/BindingEvent";
@@ -13,7 +14,8 @@ import Style from "./Styling/Style";
 function App() {
   return (
     <div className="App">
-      <Style greeting="Hello from parent" shouldGreet={false}></Style>
+      <UserForm></UserForm>
+      {/* <Style greeting="Hello from parent" shouldGreet={false}></Style> */}
       {/* <ListRendering></ListRendering> */}
       {/* <ConditionalRendering></ConditionalRendering> */}
       {/* <ParentComponent></ParentComponent> */}
