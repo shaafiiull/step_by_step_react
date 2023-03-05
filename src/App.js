@@ -1,6 +1,8 @@
 import "./App.css";
 import ConditionalRendering from "./conditional rendering/ConditionalRendering";
 import UserForm from "./Form Handling/UserForm";
+import GroceryApp from "./GroceryProject/GroceryApp";
+import Header from "./GroceryProject/Header";
 import MountingMethods from "./LifeCycleMethods/MountingMethods";
 import ListRendering from "./ListRendering/ListRendering";
 import ParentComponent from "./methodasProps/ParentComponent";
@@ -8,6 +10,7 @@ import BindingEvent from "./module01/BindingEvent";
 import Counter from "./module01/Counter";
 import Hello from "./module01/Hello";
 import NonJSXElement from "./module01/NonJSXComponent";
+import RandomName from "./module01/RandomName";
 import Subscription from "./module01/Subscription";
 import Welcome from "./module01/Welcome";
 import Style from "./Styling/Style";
@@ -15,7 +18,9 @@ import Style from "./Styling/Style";
 function App() {
   return (
     <div className="App">
-      <MountingMethods></MountingMethods>
+      <GroceryApp></GroceryApp>
+      {/* <RandomName></RandomName> */}
+      {/* <MountingMethods></MountingMethods> */}
       {/* <UserForm></UserForm> */}
       {/* <Style greeting="Hello from parent" shouldGreet={false}></Style> */}
       {/* <ListRendering></ListRendering> */}
