@@ -1,6 +1,5 @@
 import React from "react";
 import "./GroceryStyle.css";
-import useItems from "./useItems";
 
 const Header = (props) => {
   const { items } = props;
